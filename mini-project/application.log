@@ -1,0 +1,43 @@
+[2024-07-28 10:02:15] [INFO] OfficeManager instance created.
+[2024-07-28 10:06:24] [INFO] Application shutdown gracefully.
+[2024-07-28 10:15:02] [INFO] OfficeManager instance created.
+[2024-07-28 10:15:30] [INFO] Room 1 created.
+[2024-07-28 10:15:30] [INFO] Office configured with 1 meeting rooms.
+[2024-07-28 10:15:38] [INFO] Room 1 created.
+[2024-07-28 10:15:38] [INFO] Room 2 created.
+[2024-07-28 10:15:38] [INFO] Room 3 created.
+[2024-07-28 10:15:38] [INFO] Office configured with 3 meeting rooms.
+[2024-07-28 10:15:46] [INFO] Room 1 maximum capacity set to 10
+[2024-07-28 10:16:01] [INFO] Room 1 booked from 09:00 for 60 minutes.
+[2024-07-28 10:16:01] [INFO] Executed command: BookRoomCommand
+[2024-07-28 10:16:20] [INFO] Booking for Room 1 cancelled successfully.
+[2024-07-28 10:16:20] [INFO] Executed command: CancelRoomCommand
+[2024-07-28 10:16:41] [ERROR] Command execution failed: Room 6 does not exist.
+[2024-07-28 10:16:41] [ERROR] Error updating occupancy: Room 6 does not exist.
+[2024-07-28 10:18:41] [INFO] Room 2 booked from 09:00 for 50 minutes.
+[2024-07-28 10:18:41] [INFO] Executed command: BookRoomCommand
+[2024-07-28 10:56:01] [INFO] User initiated exit.
+[2024-07-28 10:56:01] [INFO] Application shutdown gracefully.
+[2024-07-29 16:17:24] [INFO] OfficeManager instance created.
+[2024-07-29 16:17:28] [INFO] Room 1 created.
+[2024-07-29 16:17:28] [INFO] Room 2 created.
+[2024-07-29 16:17:28] [INFO] Room 3 created.
+[2024-07-29 16:17:28] [INFO] Office configured with 3 meeting rooms.
+[2024-07-29 16:17:35] [INFO] Room 3 maximum capacity set to 6
+[2024-07-29 16:17:52] [INFO] Room 3 booked from 09:00 for 40 minutes.
+[2024-07-29 16:17:52] [INFO] Executed command: BookRoomCommand
+2024-07-29 18:33:14 [INFO] OfficeManager instance created.
+2024-07-29 18:33:19 [INFO] Room 1 created.
+2024-07-29 18:33:19 [INFO] Room 2 created.
+2024-07-29 18:33:19 [INFO] Room 3 created.
+2024-07-29 18:33:19 [INFO] Office configured with 3 meeting rooms.
+2024-07-29 18:33:27 [ERROR] Error setting room capacity: Invalid room number. Please enter a valid room number.
+2024-07-29 18:33:33 [INFO] Room 2 maximum capacity set to 12
+2024-07-29 18:33:43 [ERROR] Error handling user choice: For input string: ""
+2024-07-29 18:33:57 [INFO] ControlSystem updated with message: Room 2 booked from 09:00 for 40 minutes.
+2024-07-29 18:33:57 [INFO] Room 2 booked from 09:00 for 40 minutes.
+2024-07-29 18:33:57 [INFO] Executed command: BookRoomCommand
+2024-07-29 18:34:10 [ERROR] Command execution failed: Occupancy exceeds room capacity.
+2024-07-29 18:34:10 [ERROR] Error updating occupancy: Occupancy exceeds room capacity.
+2024-07-29 20:17:36 [INFO] User initiated exit.
+2024-07-29 20:17:36 [INFO] Application shutdown gracefully.
